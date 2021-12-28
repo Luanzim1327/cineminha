@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Fira+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Bakbak One', cursive;
+    font-family: 'Fira Sans', sans-serif;
+    background-image: url('./popcorn.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+/* ID CATALOG */
+
+
+#catalog{
+    width: 80%;
+    margin: auto;
+    background-color: #203655;
+    padding-bottom: 40px;
+}
+#catalog h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 3px;
+    background-color: #e59b32;
+}
+#catalog h2 a{
+    text-decoration: none;
+    color: orange;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+#catalog h2{
+    text-align: center;
+    margin-top: 20px;
+}
+.movie-img{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.movie-img img{
+    border-radius: 5px;
+    border: orange 2px solid;
+    cursor: pointer;
+}
+
+
+/* ID CATALOG */

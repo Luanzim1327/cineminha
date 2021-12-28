@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Fira+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Bakbak One', cursive;
+    font-family: 'Fira Sans', sans-serif;
+    background-image: url("./popcorn.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Beginning of the head */
+
+header{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    background-color: #203655;
+    color: #e59b32;
+}
+ul{
+    display: flex;
+    align-items: center;
+}
+li{
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 30px;
+}
+li a{
+    text-decoration: none;
+    color: #df8201;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+li a:hover{
+    transition: 0.2s;
+    color: #ffa11e;
+}
+
+/* Head End */
+
+.barra-cor{
+    background-color:#ffa11e ;
+    width: 84.4%;
+    margin: auto;
+    padding-bottom:10px ;
+}
+.barra-cor p{
+    color: orange;
+}
+
+/* DIV CONTAINER */
+
+#container{
+    margin: 0;
+    padding: 0;
+    margin-top: 100px;
+    overflow: auto;
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+    background-color: #203655;
+}
+#container img{
+    border: solid 2px #ffa11e;
+    cursor: pointer;
+}
+#container img:hover{
+    transition: 0.1s
+}
+
+
+.movie{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 100px;
+    align-items: center;
+    background-color: #203655;
+    color: white;
+}
+.synopsis{
+    margin-left: 10px;
+}
+.synopsis h2{
+    margin-bottom: 10px;
+}
+.buy-ticket{
+    margin-top: 10px;
+    border: none;
+    padding: 5px;
+    background-color: #ffa11e;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* DIV COTAINER*/
